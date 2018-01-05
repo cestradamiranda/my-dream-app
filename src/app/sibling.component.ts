@@ -15,6 +15,6 @@ export class SiblingComponent implements OnInit {
     this.data.currentMessage.subscribe(message => this.message = message)
   }
   newMessage() {
-    this.data.changeMessage("Hello from Sibling")
+    this.data.changeMessage("Hello from Sibling");
   }
 }
