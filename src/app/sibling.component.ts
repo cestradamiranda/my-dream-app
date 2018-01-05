@@ -3,7 +3,7 @@ import { DataService } from "./services/data.service";
 @Component({
   selector: 'app-sibling',
   template: `
-    {{message}}
+   
     <button (click)="newMessage()">New Message</button>
   `
   
